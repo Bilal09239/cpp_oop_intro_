@@ -39,7 +39,7 @@ class Account {
   + deposit(uint64_t amount)
   + withdraw(uint64_t amount) uint64_t
   + balance() int64_t
-  + number() uint64_t
+  + id() uint64_t
   + owner() string
 }
 ```

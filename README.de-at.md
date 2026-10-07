@@ -50,13 +50,13 @@ classDiagram
 class Account {
   - balance_ int64_t
   - owner_ string
-  - number_ uint64_t
+  - id_ uint64_t
   + Account(string owner, uint64_t id)
   + Account(string owner, uint64_t id, uint64_t deposit)
   + deposit(uint64_t amount)
   + withdraw(uint64_t amount) uint64_t
   + balance() int64_t
-  + number() uint64_t
+  + id() uint64_t
   + owner() string
 }
 ```
